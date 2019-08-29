@@ -1,0 +1,12 @@
+## .gitignore ""
+# ignore all
+/*
+*/
+.DS_Store
+
+# allow any
+!README.md
+!app
+!app/img
+!.gitignore
+!*.crx

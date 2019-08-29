@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "amp-opener",
+  "description": "AMP のページから正規のページを開く",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "https://*/",
+    "http://*/"
+  ],
+  "icons": {
+    "128": "img/128.png",
+    "48": "img/48.png",
+    "16": "img/16.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "img/icon.png"
+  }
+}
